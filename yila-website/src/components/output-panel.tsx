@@ -13,7 +13,7 @@ export function OutputPanel({ sections }: { sections: AiSection[] }) {
           }`}
         >
           <h3 className="text-lg font-semibold text-slate-900">
-            《{section.title}》
+            {section.title}
           </h3>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-600">
             {section.bullets.map((item, index) => (

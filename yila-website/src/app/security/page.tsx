@@ -24,11 +24,11 @@ export default function SecurityPage() {
             <p className="mt-2 text-sm text-slate-600">
               通过 RBAC 与最小权限原则，控制不同岗位访问范围。
             </p>
-            <ul className="mt-4 space-y-2 text-sm text-slate-600">
-              <li>• 集团管理员：策略与审计总览</li>
-              <li>• 门店主管：流程配置与经营指标</li>
-              <li>• 医生：诊疗与病历权限</li>
-              <li>• 前台/药房：收费与库存权限</li>
+            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-slate-600">
+              <li>集团管理员：策略与审计总览</li>
+              <li>门店主管：流程配置与经营指标</li>
+              <li>医生：诊疗与病历权限</li>
+              <li>前台/药房：收费与库存权限</li>
             </ul>
           </div>
           <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm">

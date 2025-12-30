@@ -29,9 +29,9 @@ export default function SolutionsPage() {
               <p className="mt-2 text-sm text-slate-600">
                 {solution.description}
               </p>
-              <ul className="mt-4 space-y-2 text-sm text-slate-600">
+              <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-slate-600">
                 {solution.highlights.map((item) => (
-                  <li key={item}>• {item}</li>
+                  <li key={item}>{item}</li>
                 ))}
               </ul>
             </div>

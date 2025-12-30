@@ -35,10 +35,10 @@ export default function IntegrationsPage() {
             <p className="mt-2 text-sm text-slate-600">
               提供标准模板、迁移流程与清洗规则，降低系统切换成本。
             </p>
-            <ul className="mt-4 space-y-2 text-sm text-slate-600">
-              <li>• 患者档案与历史病历导入</li>
-              <li>• 处方、项目与库存初始化</li>
-              <li>• 经营指标与财务数据导出</li>
+            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-slate-600">
+              <li>患者档案与历史病历导入</li>
+              <li>处方、项目与库存初始化</li>
+              <li>经营指标与财务数据导出</li>
             </ul>
           </div>
         </div>
